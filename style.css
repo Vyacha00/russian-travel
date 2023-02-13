@@ -1,12 +1,78 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/fonts.css);
+
 .root {
     min-width: 320px;
     background-color: #2A2C2F;
-    
-
+    display: block;
+    padding-top: 28px;
+    color: white;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 0 48px 56px 48px;
+    min-height: 52px;
+    width: calc(100% - 96px);
+    box-sizing: border-box;
+}
+
+.header__list-links {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.header__list-link:first-child {
+    margin-right: 18px;
+}
+
+.header__lang-link {
+    font-size: 24px;
+    line-height: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.header__lang-link:hover {
+    text-decoration: underline;
+}
+
+.lead {
+    display: flex;
+    width: 720px;
+    margin: 0 auto;
+    
+}
+
+.lead__title {
+    font-size: 96px;
+    line-height: 100px;
+    text-align: center;
+    margin: 0;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 320px) {
+    .root {
+        padding-top: 16px;
+    }
+    
+    .header {
+        min-height: 42px
+    }
+    .header__lang-link {
+        font-size: 18px;
+    }
+
 }
 
