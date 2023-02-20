@@ -1,0 +1,8 @@
+.max-width-small {
+    max-width: 984px;
+}
+@media screen and (max-width: 1024px) {
+    .max-width-small {
+            max-width: 928px;
+        }
+}

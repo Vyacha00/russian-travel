@@ -1,0 +1,15 @@
+.page {
+    min-width: 320px;
+    background-color: #2A2C2F;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 28px;
+    font-family: 'Inter', Georgia, serif;
+}
+@media screen and (max-width: 320px) {
+    .page {
+            padding-top: 16px;
+        }
+}

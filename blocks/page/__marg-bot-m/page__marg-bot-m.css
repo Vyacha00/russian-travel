@@ -1,0 +1,8 @@
+.page__marg-bot-m {
+    margin-bottom: 56px;
+}
+@media screen and (max-width: 1024px) {
+    .page__marg-bot-m {
+            margin-bottom: 48px;
+        }
+}

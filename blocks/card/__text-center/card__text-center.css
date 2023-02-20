@@ -1,0 +1,6 @@
+.card__text-center {
+    grid-area: train;
+    display: grid;
+    position: relative;
+    z-index: 3;
+  }

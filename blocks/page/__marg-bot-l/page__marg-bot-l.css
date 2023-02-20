@@ -1,0 +1,13 @@
+.page__marg-bot-l {
+    margin-bottom: 92px;
+}
+@media screen and (max-width: 768px) {
+    .page__marg-bot-l {
+            margin-bottom: 88px;
+        }
+}
+@media screen and (max-width: 320px) {
+    .page__marg-bot-l {
+            margin-bottom: 64px;
+        }
+}
