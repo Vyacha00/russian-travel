@@ -8,12 +8,12 @@
  }
 @media screen and (max-width: 1024px) {
     .footer {
-        width: calc(100% - 96px)
+        width: calc(100% - 96px);
         }
 }
 @media screen and (max-width: 768px) {
     .footer {
-            width: calc(100% - 48px)
+            width: calc(100% - 48px);
         }
 }
 @media screen and (max-width: 320px) {
