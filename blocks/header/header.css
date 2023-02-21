@@ -13,6 +13,7 @@
 }
 @media screen and (max-width: 320px) {
     .header {
-            width: calc(100% - 32px);   
+            width: calc(100% - 32px);
+            min-height: 42px;
         }
 }

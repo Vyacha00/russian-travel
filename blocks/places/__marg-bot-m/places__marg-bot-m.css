@@ -1,3 +1,15 @@
 .places__marg-bot-m {
     margin-bottom: 80px;
 }
+
+@media screen and (max-width: 768px) {
+    .places__marg-bot-m {
+        margin-bottom: 73px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .places__marg-bot-m {
+        margin-bottom: 50px;
+    }
+}

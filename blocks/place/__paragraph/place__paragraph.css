@@ -9,3 +9,14 @@
 .place__paragraph + .place__paragraph {
     margin-top: 26px;
 }
+
+@media screen and (max-width: 768px) {
+    .place__paragraph + .place__paragraph {
+        margin-top: 25px;
+    }
+
+    .place__paragraph {
+        font-size: 16px;
+        line-height: 26.08px;
+    }
+}
