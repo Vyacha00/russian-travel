@@ -1,7 +1,0 @@
-.card__background {
-    display: grid;
-    grid-area: train;
-    width: 100%;
-    position: relative;
-    z-index: 2;
-  }

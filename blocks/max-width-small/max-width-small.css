@@ -1,8 +1,9 @@
-.max-width-small {
-    max-width: 984px;
+.page__max-width-small {
+    width: 984px;
+    display: flex;
 }
 @media screen and (max-width: 1024px) {
-    .max-width-small {
+    .page__max-width-small {
             max-width: 928px;
         }
 }

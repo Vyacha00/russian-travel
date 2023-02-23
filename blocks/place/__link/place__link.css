@@ -6,6 +6,7 @@
     color: white;
     text-decoration-line: underline;
     margin: 0;
+    display: flex;
 }
 .place__link:hover {
     opacity: 0.8;

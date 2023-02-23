@@ -2,5 +2,6 @@
     .footer__links {
             flex-direction: column;
             display: flex;
+            align-items: start;
         }
 }
