@@ -34,21 +34,21 @@
     opacity: 0.8;
   }
 
-  @media  and (max-width: 1024px) {
+  @media screen and (max-width: 1024px) {
     .card {
       max-width: 1024px;
       min-height: 640px;
     }
   }
 
-  @media  and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     .card {
       max-width: 768px;
       min-height: 480px;
     }
   }
 
-  @media  and (max-width: 320px) {
+  @media screen and (max-width: 320px) {
     .card {
       max-width: 320px;
       min-height: 200px;

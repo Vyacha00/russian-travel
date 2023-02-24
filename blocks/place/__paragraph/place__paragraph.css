@@ -20,3 +20,15 @@
         line-height: 26.08px;
     }
 }
+
+@media screen and (max-width: 705px) {
+    .place__paragraphs {
+            width: calc(100% - 64px);
+        }
+}
+
+@media screen and (max-width: 320px) {
+    .place__paragraphs {
+            width: 288px;
+        }
+}

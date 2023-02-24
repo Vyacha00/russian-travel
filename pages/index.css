@@ -27,7 +27,6 @@
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__container/lead__container.css);
-@import url(../blocks/page/__max-width-small/page__max-width-small.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__main/page__main.css);
 @import url(../blocks/page/__marg-bot-l/page__marg-bot-l.css);
@@ -45,4 +44,3 @@
 @import url(../blocks/place/__website/place__website.css);
 @import url(../blocks/places/places.css);
 @import url(../blocks/places/__marg-bot-m/places__marg-bot-m.css);
-@import url(../blocks/max-width-small/max-width-small.css);

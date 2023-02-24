@@ -3,5 +3,6 @@
             flex-direction: column;
             display: flex;
             align-items: start;
+            width: 186px;
         }
 }

@@ -8,7 +8,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
     .places__marg-bot-m {
         margin-bottom: 50px;
     }

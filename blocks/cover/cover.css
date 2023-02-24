@@ -2,13 +2,12 @@
     /* max-width: 1184px;
     min-height: 740px; */
     width: calc(100% - 92px);
-    /* height: 100%; */
     display: flex;
     justify-content: center;
-
-    /* overflow: hidden; */
   }
 
-  /* @media screen (max-width: 1184px) {
-    width: 100%
-  } */
+  @media screen and (max-width: 1025px) {
+    .cover {
+    width: 100%;
+  }
+}
