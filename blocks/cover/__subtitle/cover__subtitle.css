@@ -13,3 +13,10 @@
             line-height: 16px;
         }
 }
+
+@media screen and (max-width: 320px) {
+  .cover__subtitle {
+    max-width: 288px;
+      }
+}
+
